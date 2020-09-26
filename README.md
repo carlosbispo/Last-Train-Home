@@ -1,29 +1,35 @@
-# Foobar
+# Last Train Home
 
-Foobar is a Python library for dealing with word pluralization.
+Last Train Home Android
+This a port of a very cool game.
+Original version available at:
 
-## Installation
+[https://hby.itch.io/last-train-home](https://hby.itch.io/last-train-home)
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Follow his author here:
+[https://twitter.com/hby_stuff](https://twitter.com/hby_stuff)
 
-```bash
-pip install foobar
-```
+## Compiling
 
-## Usage
+Open Android Studio and select "Make Project"
 
-```python
-import foobar
+## Playing
+- Swipe left to walk left
+- Swipe right to walk right
+- Touch to select option
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+## Known Bugs
+- Touch not always working, You have to touch several times to work... :(
+- Last puzzle (spin around) doesn´t require move 7 times. Only swipe left and right once, and there you go.
+- Missing down movement (TBD)
+- On lose focus, audio continues to play. You have to kill manually the game (TBD)
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 Please make sure to update tests as appropriate.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+## Open AL
+
+This one was hard to compile on Android. Base work from here:
+[http://repo.or.cz/w/openal-soft/android.git](http://repo.or.cz/w/openal-soft/android.git)
