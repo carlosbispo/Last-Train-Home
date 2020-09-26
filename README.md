@@ -1,6 +1,6 @@
 # Last Train Home
 
-Last Train Home Android
+Last Train Home Android.\
 This a port of a very cool game.
 Original version available at:
 
